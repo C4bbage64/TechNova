@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="technova.master.cs" Inherits="technova.technova" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>TechNova - Tomorrow’s Tech, Today.</title>
+    <link href="styles/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- Header -->
+        <header class="main-header">
+            <div class="logo">
+                <a href="Default.aspx">TechNova</a>
+            </div>
+
+            <nav class="nav-bar">
+                <!-- Always visible -->
+                <a href="/Default.aspx" class="nav-link">Home</a>
+                <a href="/Products.aspx" class="nav-link">Products</a>
+                <a href="/Cart.aspx" class="nav-link">Cart</a>
+                <a href="/OrderHistory.aspx" class="nav-link">Order History</a>
+
+                <!-- Admin-only -->
+                <asp:PlaceHolder ID="phAdminLinks" runat="server">
+                    <span class="nav-divider">Admin Tools:</span>
+                    <a href="/Admin/Dashboard.aspx" class="nav-link">Dashboard</a>
+                    <a href="/Admin/ManageOrders.aspx" class="nav-link">Manage Orders</a>
+                    <a href="/Admin/ManageProducts.aspx" class="nav-link">Manage Products</a>
+                    <a href="/Admin/ManageUsers.aspx" class="nav-link">Manage Users</a>
+                </asp:PlaceHolder>
+
+                <!-- Logged-out users -->
+                <asp:PlaceHolder ID="phLoggedOut" runat="server">
+                    <a href="/Login.aspx" class="nav-link">Login</a>
+                    <a href="/Register.aspx" class="nav-link">Register</a>
+                </asp:PlaceHolder>
+
+                <!-- Logged-in users -->
+                <asp:PlaceHolder ID="phLoggedIn" runat="server">
+                    <a href="/Profile.aspx" class="nav-link">Profile</a>
+                    <a href="/Logout.aspx" class="nav-link">Logout</a>
+                    <asp:Label ID="lblWelcome" runat="server" CssClass="welcome-label" />
+                </asp:PlaceHolder>
+            </nav>
+
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </main>
+
+        <!-- Footer -->
+        <footer class="main-footer">
+            <p>&copy; 2025 TechNova. All rights reserved.</p>
+        </footer>
+    </form>
+</body>
+</html>

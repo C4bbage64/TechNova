@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "technova", "technova.csproj", "{9434238E-C7F3-4D20-A3E7-39CAFB6A1E0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9434238E-C7F3-4D20-A3E7-39CAFB6A1E0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9434238E-C7F3-4D20-A3E7-39CAFB6A1E0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9434238E-C7F3-4D20-A3E7-39CAFB6A1E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9434238E-C7F3-4D20-A3E7-39CAFB6A1E0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F40AEA7-0F29-49EF-9F3D-633D345908A0}
+	EndGlobalSection
+EndGlobal
