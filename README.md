@@ -38,7 +38,7 @@
 ```
 /TechNova
 │
-├── /Admin # Admin pages (Dashboard, ManageUsers, ManageProducts)
+├── /Admin # Admin pages (Dashboard, ManageOrders, ManageUsers, ManageProducts)
 ├── /Images # Product images
 ├── /Styles # CSS styling
 ├── Cart.aspx # Shopping cart
