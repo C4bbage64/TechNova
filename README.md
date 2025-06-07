@@ -35,6 +35,7 @@
 
 ## 📂 Project Structure
 
+```
 /TechNova
 │
 ├── /Admin # Admin pages (Dashboard, ManageUsers, ManageProducts)
@@ -48,6 +49,7 @@
 ├── Profile.aspx # Edit user profile
 ├── technova.Master # Master page layout
 └── Web.config # Connection strings & settings
+```
 
 ---
 
