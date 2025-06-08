@@ -35,9 +35,10 @@
 
 ## 📂 Project Structure
 
+```
 /TechNova
 │
-├── /Admin # Admin pages (Dashboard, ManageUsers, ManageProducts)
+├── /Admin # Admin pages (Dashboard, ManageOrders, ManageUsers, ManageProducts)
 ├── /Images # Product images
 ├── /Styles # CSS styling
 ├── Cart.aspx # Shopping cart
@@ -48,6 +49,7 @@
 ├── Profile.aspx # Edit user profile
 ├── technova.Master # Master page layout
 └── Web.config # Connection strings & settings
+```
 
 ---
 
